@@ -1,0 +1,403 @@
+*{
+padding: 0px;
+margin: 0px;
+font-family: josefin Sans,sans-serif ;
+border-sizing: border-box;
+
+
+}
+
+.hero{
+width: 100%;
+height: 100vh;
+background: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85)),url(pic/img.png);
+;
+background-size: cover;
+
+
+
+
+}
+
+nav{
+display: flex;
+align-items: cneter;
+justify-content: space-between;
+padding-top: 45px;
+padding-right: 8%;
+padding-left: 8%;
+
+
+}
+
+.logo{
+color: whitesmoke;
+font-size: 35px;
+cursor: pointer;
+
+}
+
+span{
+color:#37AA9C ;
+}
+
+nav ul li{
+display:inline-block;
+padding: 10px 25px;
+
+}
+
+nav ul li a{
+color: whitesmoke;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+}
+
+nav ul li a:hover{
+color:#37AA9C ;
+
+}
+
+.btn{
+color: whitesmoke;
+background:#37AA9C ;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 10px 25px;
+border-radius: 30px;
+transition: transform-1s;
+
+}
+
+.btn:hover{
+transform: scale(1.2);
+
+}
+
+.content{
+position: absolute;
+top: 50%;
+left: 8%;
+transform: translateY(-50%);
+
+}
+
+h1{
+color: whitesmoke;
+margin: 20px 0px 20px;
+font-size: 65px;
+
+}
+
+h3{
+color: whitesmoke;
+font-size: 25px;
+margin-bottom: 50px;
+
+}
+
+h4{
+color:#B8E1DD;
+letter-spacing: 2px;
+font-size: 20px;
+
+}
+
+.news form {
+width: 380px;
+max-width: 100%;
+position: relative;
+
+}
+
+.news form input:first-child{
+display: inline-block;
+width: 60%;
+padding: 14px 130px 14px 15px;
+border: 2px solid #37AA9C;
+outline: none;
+border-radius: 30px;
+
+
+}
+
+.news form input:last-child{
+position: absolute;
+display: inline-block;
+outline: none;
+border: none;
+padding: 10px 30px;
+border-radius: 30px;
+background-color: #37AA9C;
+box-shadow: 0px 0px 5px #000, 0px 0px 5px #858585;
+top: 6px;
+right: 6px;
+
+}
+
+.about{
+width: 100%;
+padding: 100px 0px; 
+background: #313131;
+
+}
+
+div img{
+width: 310px;	
+filter: saturate(30%);
+background: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.10));
+
+
+
+}
+
+
+.text{
+width: 550px;
+
+}
+
+.main{
+width: 1130px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.text h2{
+color: whitesmoke;
+font-size: 55px;
+text-transform: capitalize;
+margin-bottom: 20px;
+
+} 
+
+
+.text h5{
+color: whitesmoke;
+letter-spacing: 2px;
+font-size: 23px;
+margin-bottom: 25px;
+text-transform: capitalize;
+
+}
+
+.text p{
+color: #B8E1DD;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+
+}
+
+button{
+background: #37AA9C;
+color: whitesmoke;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 12px 23px;
+border-radius: 30px;
+transition: .5s;
+
+}
+
+button:hover{
+background: transparent;
+border: 2px solid #37AA9C;
+cursor: pointer;
+}
+
+
+.service{
+background: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85));
+width: 100%;
+padding: 85px 0px;
+
+}
+
+.title h2{
+color: whitesmoke;
+font-size: 58px;
+width: 1130px;
+margin: 30px auto;
+text-align: center;
+
+}
+
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 400px;
+
+}
+
+.card{
+width: 210px;
+height: 335px;
+padding: 20px 35px;
+background:#313131;
+border-radius: 20px;
+margin: 15px;
+position: relative;
+overflow: hidden;
+text-align: center;
+
+}
+
+.card i{
+font-size: 50px;
+display: block;
+text-align: center;
+margin: 25px 0px;
+color: #37AA9C;
+
+}
+
+.card h5{
+color: whitesmoke;
+font-size: 23px;
+margin-bottom: 15px;
+
+}
+
+.parag p{
+color: #B8E1DD;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 25px;
+
+}
+
+.card .button{
+background: #37AA9C;
+color: whitesmoke;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 9px 22px;
+border-radius: 30px;
+transition: .5s;
+
+}
+
+.card .button:hover{
+background: transparent;
+border: 2px solid #37AA9C;
+cursor: pointer;
+
+}
+
+.contact{
+width: 100%;
+height: 290px;
+background: #313131;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.contact p{
+color: whitesmoke;
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 25px;
+
+}
+
+.contact .tap{
+background: #37AA9C;
+color: whitesmoke;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 12px 23px;
+border-radius: 30px;
+transition: .5s;
+
+}
+
+.contact .tap:hover{
+background: transparent;
+border: 2px solid #37AA9C;
+cursor: pointer;
+
+}
+
+footer{
+width: 100%;
+height: 400px;
+background: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85));
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+footer p:nth-child(1){
+font-size: 30px;
+color: whitesmoke;
+margin-bottom: 20px;
+font-weight: bold;
+
+}
+
+footer p:nth-child(2){
+color: whitesmoke;
+font-size: 17px;
+width: 500px;
+text-align: center;
+line-height: 26px;
+
+}
+
+.social{
+display: flex;
+
+}
+
+.social a{
+width: 45px;
+height: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #37AA9C;
+border-radius: 50%;
+margin: 22px 10px;
+color: whitesmoke;
+text-decoration: none;
+font-size: 20px;
+
+}
+
+.social a:hover{
+transform: scale(1.2);
+transition: .4s;
+
+}
+
+.last{
+position: absolute;
+color: #37AA9C;
+bottom: 35px;
+font-size: 18px;
+
+
+}
+
+.last p &copy{
+font-size: 40px;
+
+}
